@@ -31,3 +31,22 @@ function task1() {
       https://github.c45om/NastinNN/ (false)
        */
 }
+
+function task2() {
+      let str=prompt("Введите название переменной JS");
+      if (isPredl(str))
+            console.log(`Введенное название "${str}" подходит для переменной JS`);
+      else
+            console.log(`Введенное название "${str}" не подходит для переменной JS`);
+
+      function isPredl(str)
+      {
+            let re= /^[A-Za-z\_][\w\$]*$/;
+
+            // Имя переменной должно содержать только буквы, цифры или символы $ и _.
+            // Первый символ в имени не должен быть цифрой.
+
+            let flag=re.test(str);
+            return flag;
+      }
+}
