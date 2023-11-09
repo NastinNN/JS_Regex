@@ -1,5 +1,6 @@
 function task1() {
       let str=prompt("Введите URL адрес для проверки");
+      console.log(`Введенная строка: ${str}`);
       if (isPredl(str))
             console.log("Введенная строка является URL адресом");
       else
@@ -34,6 +35,7 @@ function task1() {
 
 function task2() {
       let str=prompt("Введите название переменной JS");
+      console.log(`Введенная строка: ${str}`);
       if (isPredl(str))
             console.log(`Введенное название "${str}" подходит для переменной JS`);
       else
@@ -53,6 +55,7 @@ function task2() {
 
 function task3() {
       let str=prompt("Введите строку");
+      console.log(`Введенная строка: ${str}`);
       if (isPredl(str))
             console.log("Введенная строка состоит только из букв и цифр");
       else
@@ -69,6 +72,7 @@ function task3() {
 
 function task4() {
       let str=prompt("Введите строку");
+      console.log(`Введенная строка: ${str}`);
       if (isPredl(str))
             console.log("Введенная строка не содержит цифры и спецсимволы и содержит больше 10 символов");
       else
