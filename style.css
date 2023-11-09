@@ -1,0 +1,19 @@
+.container {
+      max-width: 1140px;
+      margin: 0 auto;
+}
+h1 {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+}
+p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      text-align: center;
+}
+.done {
+      color: rgb(21, 167, 21);
+}
+.done:hover {
+      color: rgb(9, 61, 9);
+}
